@@ -1,11 +1,11 @@
-/* Estilos Gerais */
+/**************************** Estilos Gerais */
 
 body {
-    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 14px;
     line-height: 20px;
 }
@@ -26,8 +26,34 @@ p {
     border-color: #fff;
 }
 
+.btn.btn-preto:hover {
+    color: #000;
+    border-color: #000;
+}
 
-/* Header */
+.subtitulo {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto;
+}
+
+
+/**************************** Header */
 
 .header {
     position: fixed;
@@ -36,6 +62,7 @@ p {
     background: #fec63e;
     /* AMARELO */
     padding: 15px 0;
+    z-index: 10;
 }
 
 .header_menu {
@@ -64,6 +91,9 @@ p {
 .header_menu ul li a:hover {
     color: #fff;
 }
+
+
+/* Introdução */
 
 .introducao {
     width: 100%;
@@ -95,7 +125,7 @@ p {
 }
 
 .quote-externo p:before,
-p:after {
+.quote-externo p:after {
     /* PSEUDO-CLASSES */
     content: "";
     display: block;
@@ -113,4 +143,50 @@ p:after {
 }
 
 
-/* Introdução */
+/**************************** Produtos */
+
+.produtos {
+    padding: 60px 0;
+}
+
+.produtos_lista li {
+    background: #fec63e;
+    text-align: center;
+}
+
+.produtos_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+}
+
+.produtos_lista li h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 2px auto;
+}
+
+.produtos_lista li p {
+    padding: 10px 20px 10px 20px;
+}
+
+.produtos_icone {
+    background: #000;
+    padding-top: 20px;
+}
+
+.call {
+    text-align: center;
+    padding-top: 40px;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
