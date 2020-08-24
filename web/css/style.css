@@ -130,8 +130,6 @@ img {
     width: 100%;
     height: 380px;
     background: url("../img/bg.jpg") no-repeat center;
-    /* Expressão “cover”. Esse valor faz com que a imagem ocupe o espaço inteiro onde foi aplicada. Mas, para isso, ele realiza alguns cortes na imagem se ela tiver dimensões diferentes da área de sua ocupação. */
-    background-size: cover;
     margin-top: 92px;
     text-align: center;
     padding-top: 80px;
