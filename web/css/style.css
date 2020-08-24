@@ -56,6 +56,26 @@ img {
     margin: 8px auto;
 }
 
+.subtitulo-interno {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+}
+
 
 /**************************** Header */
 
@@ -93,6 +113,13 @@ img {
 }
 
 .header_menu ul li a:hover {
+    color: #fff;
+}
+
+
+/* PARA DESTACAR A PÁGINA ATUAL */
+
+.header_menu ul li a.menu_ativo {
     color: #fff;
 }
 
@@ -145,6 +172,35 @@ img {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.1em;
+}
+
+
+/**************************** Introdução Interna */
+
+.introducao-interna {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 47px;
+}
+
+.introducao-interna h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.introducao-interna h1:after {
+    /* PSEUDO-CLASSES */
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 10px auto;
 }
 
 
@@ -265,6 +321,10 @@ img {
 
 .qualidade_lista {
     padding-top: 20px;
+    /* overflow para limpar o float logo após a lista
+    isto não foi necessário no index
+    clear-fix (limpar a flutuação)*/
+    overflow: auto;
 }
 
 .qualidade_lista li {
