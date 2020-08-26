@@ -12,6 +12,8 @@ p {
 
 img {
     display: block;
+    /* MACETE PARA O RESPONSIVO!!! */
+    max-width: 100%;
 }
 
 .btn {
