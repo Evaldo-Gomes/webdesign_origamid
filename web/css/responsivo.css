@@ -24,6 +24,37 @@
         width: 26px;
         height: 26px;
     }
+    .produto_item h2 {
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 0;
+        font-weight: bold;
+        /* POSICIONAR ENCIMA DA FOTO */
+        position: relative;
+        /* AGORA A TAG TOP FUNCIONA */
+        top: -180px;
+        text-align: center;
+        margin-bottom: -56px;
+    }
+    /* Produtos */
+    .produto_item h2 {
+        top: -150px;
+    }
+    .produto_icone {
+        padding: 41px 0;
+    }
+    .produto_info p {
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: 122px;
+    }
+    .produto_info ul li {
+        width: 181px;
+    }
+    /****************************** Final do estilo para tablet */
 }
 
 
@@ -90,4 +121,32 @@
         font-size: 14px;
         line-height: 25px;
     }
+    /* Produtos */
+    .produto_item h2 {
+        top: -100px;
+        margin-bottom: -68px;
+    }
+    .produto_icone {
+        padding: 41px 0;
+    }
+    .produto_info p {
+        font-size: 14px;
+        line-height: 20px;
+        height: auto;
+        padding: 20px 30px;
+        text-align: justify;
+    }
+    .produto_info ul li {
+        width: 149px;
+        height: 49px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .form {
+        padding-right: 0px;
+    }
+    .orcamento ul {
+        padding-right: 0px;
+    }
+    /****************************** Final do estilo para smartphone */
 }
