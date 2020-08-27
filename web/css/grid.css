@@ -212,7 +212,7 @@ DEPOIS DA ATUALIZAÇÃO -> +20px */
     .grid-16,
     .grid-1-3 {
         width: 300px;
-        margin-bottom: 20px;
+        margin: 0 0 20px 0;
         float: none;
     }
 }
