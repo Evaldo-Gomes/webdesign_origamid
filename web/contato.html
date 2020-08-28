@@ -37,8 +37,8 @@
 
     <section class="introducao-interna interna_contato">
         <div class="container">
-            <h1>Contato</h1>
-            <p>tire as suas dúvidas com a gente</p>
+            <h1 data-anime="400" class="fadeInDown">Contato</h1>
+            <p data-anime="800" class="fadeInDown">tire as suas dúvidas com a gente</p>
         </div>
     </section>
     <!-- Fecha Introdução Interna -->
@@ -48,7 +48,7 @@
     </section>
 
     <!-- necessário uma div container dentro de uma section, quando existe um fundo que se expande! -->
-    <section class="contato container">
+    <section class="contato container fadeInDown" data-anime="1200">
         <form id="form_orcamento" class="contato_form grid-8">
             <label for="nome">Nome</label>
             <input type="text" id="nome">
@@ -138,7 +138,10 @@
                 <p class=" grid-16 ">Bikcraft 2019 - Alguns direitos reservados.</p>
             </div>
         </div>
-        </footer>
+    </footer>
+
+    <script src=" ./js/simple-anime.js "></script>
+    <script src=" ./js/script.js "></script>
 
 </body>
 
