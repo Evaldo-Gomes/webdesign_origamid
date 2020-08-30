@@ -14,12 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/responsivo.css">
     <script>
         document.documentElement.classList.add("js");
     </script>
@@ -53,13 +48,9 @@
     </section>
     <!-- Fecha Introdução Interna -->
 
-    <section>
-
-    </section>
-
     <!-- necessário uma div container dentro de uma section, quando existe um fundo que se expande! -->
     <section class="contato container fadeInDown" data-anime="1200">
-        <form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8" formphp>
+        <form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8">
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" required>
             <label for="email">E-mail</label>
@@ -73,7 +64,7 @@
             <input type="text" class="nao-aparece" name="dontchange" value="http://">
 
             <label for="mensagem">Mensagem</label>
-            <textarea name="espec" id="mensagem" name="mensagem" required></textarea>
+            <textarea name="mensagem" id="mensagem" required></textarea>
             <button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
         </form>
         <div class="contato_dados grid-8">
@@ -98,17 +89,17 @@
         </div>
     </section>
 
-    <section class="container contato_mapa">
+    <div class="container contato_mapa">
         <!-- para abrir em uma nova aba (target ="_blank") -->
         <a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
-    </section>
+    </div>
 
-    <section class="quebra ">
+    <div class="quebra ">
         <blockquote class="quote-externo container ">
             <p>"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana "</p>
             <cite>WILLIAM MORRIS</cite>
         </blockquote>
-    </section>
+    </div>
 
     <!-- Fecha Quebra -->
     <footer>
@@ -122,31 +113,31 @@
                     <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.</p>
                 </div>
 
-                <div class="grid-4 footer_contato " ">
-            <h3>Contato</h3>
-            <ul>
-                <li>- 21 9999-9999</li>
-                <li>- contato@bikcraft.com</li>
-                <li>- Botafogo - RJ</li>
-            </ul>
-        </div>
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>- 21 9999-9999</li>
+                        <li>- contato@bikcraft.com</li>
+                        <li>- Botafogo - RJ</li>
+                    </ul>
+                </div>
 
-        <div class=" grid-4 footer_redes ">
-            <h3>Redes Sociais</h3>
-            <ul>
-                <li>
-                    <a href=" http://facebool.com " target=" _blank "><img src=" img/redes-sociais/facebook.svg " alt=" Facebook "></a>
-                </li>
-                <li>
-                    <a href=" http://instagram.com "><img src=" img/redes-sociais/instagram.svg " alt=" Instagram "></a>
-                </li>
-                <li>
-                    <a href=" http://twitter.com "><img src=" img/redes-sociais/twitter.svg " alt=" Twitter "></a>
-                </li>
-            </ul>
-        </div>
+                <div class=" grid-4 footer_redes ">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>
+                            <a href=" http://facebool.com " target=" _blank "><img src=" img/redes-sociais/facebook.svg " alt=" Facebook "></a>
+                        </li>
+                        <li>
+                            <a href=" http://instagram.com "><img src=" img/redes-sociais/instagram.svg " alt=" Instagram "></a>
+                        </li>
+                        <li>
+                            <a href=" http://twitter.com "><img src=" img/redes-sociais/twitter.svg " alt=" Twitter "></a>
+                        </li>
+                    </ul>
+                </div>
 
-        </div>
+            </div>
         </div>
 
         <div class=" copy ">
